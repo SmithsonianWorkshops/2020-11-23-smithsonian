@@ -9,15 +9,15 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Nov 9-10 and 16-17, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Nov 23-24 and Nov 30/Dec 1, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9 AM to Noon"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2020-11-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2020-11-17        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2020-11-23      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2020-12-01        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["TBD"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["SI-DataScience@si.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: 128544944389          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -77,6 +77,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
+  <p>Workshop registration will open on 10 AM EST on Tuesday, November 10, 2020.</p>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
