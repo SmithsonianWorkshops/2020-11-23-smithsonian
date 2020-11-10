@@ -77,7 +77,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
-  <p>Workshop registration will open on 10 AM EST on Tuesday, November 10, 2020.</p>
+  <p>Workshop registration will open on 10 AM EST on Thursday, November 12, 2020.</p>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
