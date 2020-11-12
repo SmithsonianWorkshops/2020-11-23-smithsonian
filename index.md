@@ -75,16 +75,10 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
-  <p>Workshop registration will open on 10 AM EST on Thursday, November 12, 2020.</p>
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
+<strong>This workshop has unfortunately sold out. You can join the Waitlist by going to <a href='https://www.eventbrite.com/e/quarterly-si-data-carpentry-autumn-2020-edition-tickets-128544944389' target='_blank'>https://www.eventbrite.com/e/quarterly-si-data-carpentry-autumn-2020-edition-tickets-128544944389</a>, click on "Register" and then "Join Waitlist".<br/>
+You can also go to <a href='https://datascience.si.edu/carpentries' target='_blank'>https://datascience.si.edu/carpentries</a> 
+and click the "Sign up for the Carpentries-announce mailing list" button to be alerted when future Smithsonian Carpentries
+workshops are announced.</strong>
 {% endif %}
 
 
